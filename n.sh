@@ -14,6 +14,7 @@ echo "IP or list"
                  echo "the file name where is going to be store the scan (without .txt)"
                  read $3
                  #check if there is any file with that name
+                 #-e if the file exist 
          if [ -e $3];then 
                echo "File $3 exist"
                exit 1
